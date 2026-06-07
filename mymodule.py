@@ -9,12 +9,23 @@
 #     else:
 #         return "some is zeroФ"
 
-def make_coffee():
-    print("Делаю кофе")
+# def make_coffee(name):
+#     print(f"Делаю кофе для {name}")
+#     print("1. Грею воду...")
+#     print("2. Добавляю кофейные зерна...")
+#     print("3. Добавляю сахар...")
+#     print("4. Добавляю молоко...")
+#     print("Кофе готов!")
+#
+# make_coffee("Анастасии")
+
+def make_coffee(name, sugar):
+    print(f"Делаю кофе для {name}")
     print("1. Грею воду...")
     print("2. Добавляю кофейные зерна...")
-    print("3. Добавляю сахар...")
+    print(f"3. Добавляю сахар в количестве {sugar}...")
     print("4. Добавляю молоко...")
     print("Кофе готов!")
 
-make_coffee()
+make_coffee("Анастасии", 3)
+
