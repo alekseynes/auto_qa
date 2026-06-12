@@ -29,3 +29,4 @@ def make_coffee(name, sugar):
 
 make_coffee("Анастасии", 3)
 
+
